@@ -1,0 +1,135 @@
+.App {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: lightgray;
+  padding: 2%
+}
+
+  .product-name > h1 {
+    font-family: 'Segoe UI';
+  }
+
+  .product-spec {
+    display: flex;
+    flex-direction: row;
+  }
+
+    .product-criteria {
+      display: flex;
+      padding-top: 10%;
+      padding-right: 5%;
+      flex-direction: column;
+    }
+
+.product-display {
+  display: flex;
+  flex-wrap: wrap;
+  padding: .5%;
+  border: 1px solid lightgray;
+}
+
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: .24;
+    flex-basis: 13%;
+    align-items: center;
+    padding: 1%;
+    border: .25px solid lightgray;
+  }
+
+    .product-info {
+      text-align: center;
+      margin: auto;
+      line-height: .25em;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+.shopping-cart-button {
+  display: flex;
+  position: fixed;
+
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  height: 50px;
+
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  color: ghostwhite; 
+}
+
+.shopping-cart-button:hover {
+  cursor: pointer;
+}
+
+.shopping-cart {
+  display: flex;
+  flex-flow: column;
+  position: fixed;
+
+  bottom: 10px;
+  right: 120px;
+  width: 200px;
+  height: 400px;
+
+  border: 1px solid black;
+  background-color: gray;
+  color: ghostwhite; 
+  padding-left: 10px;
+}
+
+.shopping-cart-header {
+  margin-bottom: 2%;
+}
+
+.row-brand {
+  width:75%;
+}
+
+.row-quantity {
+  width:25%;
+}
+
+.shopping-cart-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.shopping-cart-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.shopping-cart-hidden {
+  display: none;
+}
+
+.add-to-cart-button {
+  background-color: honeydew;
+}
+
+.empty-cart-button {
+  align-self: center;
+  text-align: center;
+  height: 5%;
+  margin-top: auto;
+  margin-bottom: 2%;
+  padding: 3%;
+  border: 1px solid lightgray;
+}

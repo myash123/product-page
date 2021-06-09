@@ -1,0 +1,44 @@
+{
+  "products" : [
+    {
+      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Charvet_shirt.jpg/440px-Charvet_shirt.jpg",
+      "id": "sp_shirt_1",
+      "description": "Semi-popular shirt",
+      "price": "$20.00",
+      "popularity": "8",
+      "brand": "Cool Brand"
+    },
+    {
+      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Charvet_shirt.jpg/440px-Charvet_shirt.jpg",
+      "id": "p_shirt_1",
+      "description": "Popular shirt",
+      "price": "$100.00",
+      "popularity": "10",
+      "brand": "Cool Brand"
+    },
+    {
+      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Charvet_shirt.jpg/440px-Charvet_shirt.jpg",
+      "id": "okay_shirt_1",
+      "description": "Okay shirt",
+      "price": "$50.00",
+      "popularity": "6",
+      "brand": "Not Cool Brand"
+    },
+    {
+      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Charvet_shirt.jpg/440px-Charvet_shirt.jpg",
+      "id": "hated_shirt_1",
+      "description": "Hated shirt",
+      "price": "$150.00",
+      "popularity": "5",
+      "brand": "Not Cool Brand"
+    },
+    {
+      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Charvet_shirt.jpg/440px-Charvet_shirt.jpg",
+      "id": "hated_shirt_2",
+      "description": "Hated shirt",
+      "price": "$150.00",
+      "popularity": "5",
+      "brand": "Other Brand"
+    }
+  ]
+}
