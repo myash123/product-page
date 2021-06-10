@@ -10,7 +10,7 @@ const ProductCard = ({ productInfo, addItemToCartOnClick, id }) => {
       </div>
       <div className="product-info">
         <h5>{productInfo.description}</h5>
-        <h6>{productInfo.price}</h6>
+        <h5>{productInfo.price}</h5>
         <div className='add-to-cart'>
           <button onClick={addItemToCartOnClick} name={productInfo.id}>
             Add To Cart

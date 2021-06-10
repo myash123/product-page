@@ -1,7 +1,7 @@
 {
   "products" : [
     {
-      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Charvet_shirt.jpg/440px-Charvet_shirt.jpg",
+      "resourcePath": "https://cdn.pixabay.com/photo/2019/02/13/19/23/t-shirt-3995093_1280.png",
       "id": "sp_shirt_1",
       "description": "Semi-popular shirt",
       "price": "$20.00",
@@ -25,7 +25,7 @@
       "brand": "Not Cool Brand"
     },
     {
-      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Charvet_shirt.jpg/440px-Charvet_shirt.jpg",
+      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Arrow_Dress_Shirt_producing_in_a_RMG_factory_of_Bangladesh.jpg/1024px-Arrow_Dress_Shirt_producing_in_a_RMG_factory_of_Bangladesh.jpg",
       "id": "hated_shirt_1",
       "description": "Hated shirt",
       "price": "$150.00",
@@ -33,12 +33,36 @@
       "brand": "Not Cool Brand"
     },
     {
-      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Charvet_shirt.jpg/440px-Charvet_shirt.jpg",
+      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Paul_Smith_striped_shirt.jpg",
       "id": "hated_shirt_2",
       "description": "Hated shirt",
       "price": "$150.00",
       "popularity": "5",
       "brand": "Other Brand"
+    },
+    {
+      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Charvet_shirt.jpg/440px-Charvet_shirt.jpg",
+      "id": "p_shirt_2",
+      "description": "Popular shirt",
+      "price": "$100.00",
+      "popularity": "10",
+      "brand": "Cool Brand"
+    },
+    {
+      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Charvet_shirt.jpg/440px-Charvet_shirt.jpg",
+      "id": "okay_shirt_2",
+      "description": "Okay shirt",
+      "price": "$50.00",
+      "popularity": "6",
+      "brand": "Not Cool Brand"
+    },
+    {
+      "resourcePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Arrow_Dress_Shirt_producing_in_a_RMG_factory_of_Bangladesh.jpg/1024px-Arrow_Dress_Shirt_producing_in_a_RMG_factory_of_Bangladesh.jpg",
+      "id": "loved_shirt_1",
+      "description": "Loved shirt",
+      "price": "$150.00",
+      "popularity": "5",
+      "brand": "Cool Brand"
     }
   ]
 }
